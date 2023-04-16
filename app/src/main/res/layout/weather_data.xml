@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/city_name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading..."
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/temperature_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature: -"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/description_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description: -"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/pressure_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pressure: -"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/humidity_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Humidity: -"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/wind_speed_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind speed: -"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/wind_direction_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wind direction: -"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sunrise_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunrise: -"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sunset_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sunset: -"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
