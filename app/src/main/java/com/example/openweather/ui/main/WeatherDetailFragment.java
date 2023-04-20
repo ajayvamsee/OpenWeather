@@ -135,6 +135,7 @@ public class WeatherDetailFragment extends Fragment {
 
     }
 
+    // Utility methods for time stamps
     public String formatTime(long sunriseTimestamp) {
         Date sunriseDate = new Date(sunriseTimestamp * 1000);
         SimpleDateFormat sdf = new SimpleDateFormat("hh:mm:ss a", Locale.getDefault());
